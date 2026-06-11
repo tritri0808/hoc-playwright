@@ -38,7 +38,7 @@ npm install playwright
 # Cài đặt các gói trình duyệt ẩn của Playwright (Chỉ cần chạy lần đầu)
 npx playwright install
 ```
-2. Cấu hình kịch bản
+### 2. Cấu hình kịch bản
 Mở file script download_multi.js của bạn và thay đổi các thông số cấu hình ở đầu file cho phù hợp với trang web mục tiêu:
 
 JavaScript
@@ -53,7 +53,7 @@ const chuongKetThuc = 5;
 const viTriAnhSelector = '.chapter-images-container img'; 
 // ========================================================
 ```
-3. Kích hoạt Script
+### 3. Kích hoạt Script
 Chạy lệnh sau trong Terminal để bắt đầu quá trình tải tự động:
 
 Bash
@@ -61,7 +61,7 @@ Bash
 node download_multi.js
 ```
 
-📈 Sơ đồ quá trình xử lý của Script
+## 📈 Sơ đồ quá trình xử lý của Script
 ```
 [Bắt đầu] ──> Khởi chạy Browser
                │
